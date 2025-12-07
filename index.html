@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beak-a-Boo | Manitoba Bird Watching</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo"><i class="fa-solid fa-dove"></i> Beak-a-Boo</a>
+            <div class="mobile-menu"><i class="fa-solid fa-bars"></i></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="birds.html">Birds Catalog</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button class="theme-toggle" id="theme-toggle"><i class="fa-solid fa-moon"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Discover Manitoba’s Birds with Beak-a-Boo</h1>
+            <p>Your ultimate guide to the winged wonders of the prairies, lakes, and forests.</p>
+            <br>
+            <div style="max-width: 500px; margin: 0 auto;">
+                <input type="text" id="search-input" placeholder="Quick search for a bird...">
+            </div>
+        </section>
+
+        <section>
+            <h2>Featured Birds</h2>
+            <div class="carousel-container" id="slideshow-container">
+                </div>
+        </section>
+        
+        <br><br>
+
+        <section>
+            <h2>Seasonal Highlights</h2>
+            <div class="bird-grid" id="bird-grid">
+                </div>
+            <br>
+            <center><a href="birds.html" class="btn">View Full Catalog</a></center>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Beak-a-Boo Manitoba. All rights reserved.</p>
+    </footer>
+
+    <script src="birds.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
