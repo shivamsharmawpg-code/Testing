@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery | Beak-a-Boo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo"><i class="fa-solid fa-dove"></i> Beak-a-Boo</a>
+            <div class="mobile-menu"><i class="fa-solid fa-bars"></i></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="birds.html">Birds Catalog</a></li>
+                <li class="active"><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><button class="theme-toggle" id="theme-toggle"><i class="fa-solid fa-moon"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Photo Gallery of Manitoba Birds</h1>
+            <p>A visual catalog of all species in our database that have an available image. Click any bird for details.</p>
+            
+            <div class="bird-grid" id="bird-grid">
+                </div>
+        </section>
+    </main>
+    
+    <div id="bird-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <div id="modal-body">
+                </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="tel:2045552473" class="contact-phone" aria-label="Call Beak-a-Boo">
+                <i class="fa-solid fa-phone"></i> (204) 555-BIRD
+            </a>
+            <a href="https://www.instagram.com/beakaboo.ja/" target="_blank" aria-label="Instagram" class="social-icon">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="mailto:beakaboo.ja@gmail.com" class="contact-email">
+                <i class="fa-solid fa-envelope"></i> beakaboo.ja@gmail.com
+            </a>
+        </div>
+        <p>&copy; 2025 Beak-a-Boo Manitoba. All rights reserved.</p>
+    </footer>
+
+    <script src="birds.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
