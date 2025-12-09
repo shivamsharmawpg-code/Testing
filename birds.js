@@ -46,7 +46,7 @@ const birdsData = [
         wingspan_cm: 11,
         fact: "Their wings beat about 53 times a second, and they are the only Manitoba bird that can hover and fly backwards.",
         location: { lat: 49.500, lng: -95.500 }, // Whiteshell
-        image: "https://images.unsplash.com/photo-1549608276-5786777e6587?w=600&q=80"
+        image: "https://www.birdfy.com/cdn/shop/articles/3_97a1e91d-aa7e-4614-8a6e-e7043f7141ed.png?v=1725592908"
     },
     {
         id: 5,
@@ -61,3 +61,4 @@ const birdsData = [
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQx25RIBECG1f7vcsMqg_6giD8WAV2xFItLM1TCWe0HEiofQKzsebthKL3M1m_7RFXS7Ju3hG1RgY3mvEu5PfnM3oV9gVji8y6R8MCSA&s=10"
     }
 ];
+
