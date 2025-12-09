@@ -10,7 +10,7 @@ const birdsData = [
         wingspan_cm: 152,
         fact: "The Great Gray Owl is the provincial bird of Manitoba and can hear a vole moving under 2 feet of snow.",
         location: { lat: 50.445, lng: -96.257 }, // Birds Hill Park area
-        image: "https://images.unsplash.com/photo-1518134266652-3d712079080c?w=600&q=80"
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/%D0%91%D0%BE%D1%80%D0%BE%D0%B4%D0%B0%D1%82%D0%B0%D1%8F_%D0%BD%D0%B5%D1%8F%D1%81%D1%8B%D1%82%D1%8C_%28Strix_nebulosa%2C_m%29%2C_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%B0%D0%B4.jpg/960px-%D0%91%D0%BE%D1%80%D0%BE%D0%B4%D0%B0%D1%82%D0%B0%D1%8F_%D0%BD%D0%B5%D1%8F%D1%81%D1%8B%D1%82%D1%8C_%28Strix_nebulosa%2C_m%29%2C_%D0%91%D0%BE%D1%82%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%B0%D0%B4.jpg"
     },
     {
         id: 2,
@@ -22,7 +22,7 @@ const birdsData = [
         wingspan_cm: 180,
         fact: "They fly in a distinctive V-formation to reduce wind resistance and coordinate movements.",
         location: { lat: 49.895, lng: -97.138 }, // The Forks
-        image: "https://images.unsplash.com/photo-1506544606797-17b5b54b1f66?w=600&q=80"
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Canada_goose_on_Seedskadee_NWR_%2827826185489%29.jpg/500px-Canada_goose_on_Seedskadee_NWR_%2827826185489%29.jpg"
     },
     {
         id: 3,
@@ -58,6 +58,6 @@ const birdsData = [
         wingspan_cm: 30,
         fact: "Often called 'snowflakes', they breed in the high Arctic but migrate to Southern Manitoba for the winter.",
         location: { lat: 49.900, lng: -98.200 }, // Portage la Prairie
-        image: "https://images.unsplash.com/photo-1574936307137-a16223253b84?w=600&q=80"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQx25RIBECG1f7vcsMqg_6giD8WAV2xFItLM1TCWe0HEiofQKzsebthKL3M1m_7RFXS7Ju3hG1RgY3mvEu5PfnM3oV9gVji8y6R8MCSA&s=10"
     }
 ];
