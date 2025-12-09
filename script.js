@@ -82,10 +82,10 @@ function filterBirds() {
     displayBirds(filtered);
 }
 
-// Event Listeners for Filters
-if(searchInput) searchInput.addEventListener('input', filterBirds);
-if(seasonFilter) seasonFilter.addEventListener('change', filterBirds);
-if(typeFilter) typeFilter.addEventListener('change', filterBirds);
+// Event Listeners for Filters (Only used on birds.html)
+if(searchInput && grid) searchInput.addEventListener('input', filterBirds);
+if(seasonFilter && grid) seasonFilter.addEventListener('change', filterBirds);
+if(typeFilter && grid) typeFilter.addEventListener('change', filterBirds);
 
 // 3. Slideshow Logic
 let slideIndex = 0;
@@ -153,7 +153,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Page Specific
-    displayBirds(birdsData); // Load grid if exists
-    initSlideshow(); // Load slides if exists
-    initMap(); // Load map if exists
+    // displayBirds is now only called if the bird-grid element exists (e.g., on birds.html)
+    if(document.querySelector('.bird-grid') && document.querySelector('#bird-grid')) {
+        displayBirds(birdsData);
+    }
+    initSlideshow(); // Load slides if exists (on index.html)
+    initMap(); // Load map if exists (on map.html or other)
 });
