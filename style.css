@@ -97,7 +97,7 @@ footer {
     flex-wrap: wrap; /* Allows wrapping on small screens */
 }
 
-/* Social Icons (Instagram and Email) Style */
+/* Social Icons (Instagram, Phone, Email, Address) Style */
 .social-icon {
     color: var(--nav-text);
     font-size: 2.2rem; /* Big icon */
@@ -112,23 +112,7 @@ footer {
     color: var(--accent-color); /* Changes to light green */
 }
 
-/* Phone Contact Style */
-.contact-phone {
-    color: var(--nav-text);
-    text-decoration: none;
-    font-size: 1.1rem;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    transition: color 0.3s ease;
-}
-
-.contact-phone:hover {
-    color: var(--accent-color);
-    text-decoration: underline;
-}
-
-/* Hides the email text while keeping the icon visible for the icon-only link */
+/* HIDES THE TEXT NEXT TO THE ICON: Targets any element immediately following the icon (i + *) */
 .social-icon i + * {
     display: none;
 }
